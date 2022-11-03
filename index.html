@@ -12,7 +12,7 @@
     }
     }
 
-    checkList(myList)
+    checkList(myList);
 
 
     function calcAvg(list){
@@ -21,18 +21,18 @@
     }
 
 
-    numList_1 = [1, 5, 12, 4, 3]
+    numList_1 = [1, 5, 12, 4, 3];
 
-    numList_2 = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+    numList_2 = [2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-    numList_3 = [3, 10, 17]
+    numList_3 = [3, 10, 17];
 
 
-    calcAvg(numList_1)
+    calcAvg(numList_1);
 
-    calcAvg(numList_2)
+    calcAvg(numList_2);
 
-    calcAvg(numList_3)
+    calcAvg(numList_3);
 
 
 
@@ -49,6 +49,19 @@
     }
 
     let answer = prompt('У квадратного стола отпилили один угол. Сколько теперь углов у него стало?');
-    askQuestion(answer)
+    askQuestion(answer);
+
+
+    let duck = {
+        name: 'Дональд',
+        color: "Белый",
+        age: '1 год',
+        toStr: function(){console.log(`${this.name}, ${this.color}, ${this.age}`)},
+        say: function(){console.log('кря-кря')}
+    }
+
+
+    duck.toStr()
+
 
 </script>
