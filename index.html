@@ -10,7 +10,7 @@
             console.log('плохо')
         }
     }
-    }
+    };
 
     checkList(myList);
 
@@ -18,7 +18,7 @@
     function calcAvg(list){
         let avg = list.reduce((a, b)=> a + b)/list.length;
         console.log(avg)
-    }
+    };
 
 
     numList_1 = [1, 5, 12, 4, 3];
@@ -46,7 +46,7 @@
         else {
             console.log('Ответ неверный')
         }
-    }
+    };
 
     let answer = prompt('У квадратного стола отпилили один угол. Сколько теперь углов у него стало?');
     askQuestion(answer);
@@ -58,10 +58,11 @@
         age: '1 год',
         toStr: function(){console.log(`${this.name}, ${this.color}, ${this.age}`)},
         say: function(){console.log('кря-кря')}
-    }
+    };
 
 
-    duck.toStr()
+    duck.toStr();
+    duck.say();
 
 
 </script>
