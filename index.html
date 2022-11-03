@@ -1,13 +1,19 @@
 <script>
     let myList = ['молоко', 'пиво', 'пиво', 'молоко', 'молоко'];
 
-    for (i of myList){
+
+    function checkList(list){
+        for (i of myList){
         if(i==='молоко'){
             console.log('хорошо')}
         if(i==='пиво'){
             console.log('плохо')
         }
     }
+    }
+
+
+    checkList(myList)
 
     // function check(data){
     //     for(i=0, i<list.length, i++ ){
