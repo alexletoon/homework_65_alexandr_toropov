@@ -33,10 +33,22 @@
     calcAvg(numList_2)
 
     calcAvg(numList_3)
-    // function check(data){
-    //     for(i=0, i<list.length, i++ ){
-    //         console.log(i)
 
-    //     }
-    // }
+
+
+    function askQuestion(string){
+        if(string == 5){
+            console.log('Ответ верный')
+        }
+        else if(string === 'пять'){
+            console.log('Ответ верный')
+        }
+        else {
+            console.log('Ответ неверный')
+        }
+    }
+
+    let answer = prompt('У квадратного стола отпилили один угол. Сколько теперь углов у него стало?');
+    askQuestion(answer)
+
 </script>
